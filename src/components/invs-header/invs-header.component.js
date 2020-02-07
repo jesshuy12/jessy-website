@@ -5,17 +5,17 @@ import './invs-header.styles.scss'
 import { ReactComponent as Logo } from '../../assets/jessysig.svg'
 
 const InvsHeader = () => (
-    <div className="header">
-        <Link className="logo-container" to="/">
-            <Logo className="logo"/>
+    <div className="invs-header">
+        <Link className="invs-logo-container" to="/">
+            <Logo className="invs-logo"/>
         </Link>
-        <div className="options">
-            <Link className="option" to="/">ABOUT</Link>
-            <Link className="option" to="/">WORK</Link>
-            <Link className="option" to="/">SOFTWARE</Link>
-            <Link className="option" to="/">PROJECTS</Link>
-            <Link className="option" to="/">PHOTOGRAPHY</Link>
-            <Link className="option" to="/">CONTACT</Link>
+        <div className="invs-options">
+            <Link className="invs-option" to="/">ABOUT</Link>
+            <Link className="invs-option" to="/">WORK</Link>
+            <Link className="invs-option" to="/">SOFTWARE</Link>
+            <Link className="invs-option" to="/">PROJECTS</Link>
+            <Link className="invs-option" to="/">PHOTOGRAPHY</Link>
+            <Link className="invs-option" to="/">CONTACT</Link>
         </div>
     </div>
 )
