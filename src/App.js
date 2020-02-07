@@ -12,6 +12,11 @@ class App extends React.Component {
   return (
     <div className="App">
       <Header />
+      <div className="menu-button">
+            <div className="menu-line"></div>
+            <div className="menu-line"></div>
+            <div className="menu-line"></div>
+        </div>
       <Switch>
           <Route exact path='/' component={HomePage}/>
           <Route path='/shop' />
