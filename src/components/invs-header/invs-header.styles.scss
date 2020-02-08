@@ -5,8 +5,8 @@
     flex-direction: column;
     margin-bottom: 25px;
     position: fixed;
-    opacity: .9;
-    border: 1px solid red;
+    background-color: white;
+    opacity: .8;
     top: 0;
   
     .invs-logo-container {
@@ -25,7 +25,7 @@
     .invs-options {
       padding-top: 5px;
       width: 100%;
-      height: 100%;
+      height: 10vh;
       display: flex;
       justify-content: center;
   
@@ -38,5 +38,10 @@
         color: gray;
       }
 
+    }
+
+    .invs-bottom {
+        width: 100%;
+        height: 100%;
     }
   }

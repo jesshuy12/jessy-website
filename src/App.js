@@ -3,6 +3,7 @@ import { Route, Switch } from 'react-router-dom'
 
 import './App.css';
 
+import SoftwarePage from './pages/software-page/software-page.component'
 import HomePage from './pages/home-page/home-page.component'
 import Header from './components/header/header.component'
 import InvsHeader from './components/invs-header/invs-header.component'
@@ -32,7 +33,7 @@ class App extends React.Component {
         </div>
       <Switch>
           <Route exact path='/' component={HomePage}/>
-          <Route path='/shop' />
+          <Route path='/software' component={SoftwarePage}/>
           <Route path='/signin' />
         </Switch>
     </div>

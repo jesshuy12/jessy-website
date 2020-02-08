@@ -12,11 +12,12 @@ const InvsHeader = () => (
         <div className="invs-options">
             <Link className="invs-option" to="/">ABOUT</Link>
             <Link className="invs-option" to="/">WORK</Link>
-            <Link className="invs-option" to="/">SOFTWARE</Link>
+            <Link className="invs-option" to="/software">SOFTWARE</Link>
             <Link className="invs-option" to="/">PROJECTS</Link>
             <Link className="invs-option" to="/">PHOTOGRAPHY</Link>
             <Link className="invs-option" to="/">CONTACT</Link>
         </div>
+        <div className="invs-bottom"></div>
     </div>
 )
 
