@@ -9,18 +9,37 @@
     .info-container {
         width: 100%;
         height: 100%;
+        padding-bottom: 100px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
 
         .item {
             width: 20vw;
-            height: 50vh;
-            border: 1px solid blue;
+            height: 60vh;
 
             .item-title {
-                padding-left: 10%;
+                padding-left: 27%;
+                padding-bottom: 40px;
+                font-size: 18px;
             }
+
+            .content-separator {
+                display: flex;
+                flex-direction: row;
+
+                .content {
+                    padding-bottom: 10px;
+                    margin-left: 27%;
+                    font-weight: 600;
+                }
+
+                .content-name {
+                    left: 0;
+                    margin-left: 7%;
+                }
+            }
+
         }
     }
 
