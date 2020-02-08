@@ -37,6 +37,11 @@
                 .content-name {
                     left: 0;
                     margin-left: 7%;
+                    cursor: pointer;
+                }
+
+                .content-name:hover {
+                    font-weight: 600;
                 }
             }
 
