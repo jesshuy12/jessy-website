@@ -58,10 +58,6 @@ const SoftwareInfo = () => (
                         <p className="content">04</p>
                         <p className="content-name">MySQL</p>
                     </div>
-                    <div className="content-separator">
-                        <p className="content">05</p>
-                        <p className="content-name">Firebase</p>
-                    </div>
                 </span>
             </div>
             <div className="item">
@@ -81,15 +77,15 @@ const SoftwareInfo = () => (
                     </div>
                     <div className="content-separator">
                         <p className="content">04</p>
-                        <p className="content-name">API Integrations</p>
-                    </div>
-                    <div className="content-separator">
-                        <p className="content">05</p>
                         <p className="content-name">MVC Frameworks</p>
                     </div>
                     <div className="content-separator">
-                        <p className="content">06</p>
+                        <p className="content">05</p>
                         <p className="content-name">UX/UI</p>
+                    </div>
+                    <div className="content-separator">
+                        <p className="content">06</p>
+                        <p className="content-name">Firebase</p>
                     </div>
                 </span>
             </div>

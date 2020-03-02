@@ -1,0 +1,36 @@
+.career-info {
+    border: 1px solid red;
+    height: 100%;
+    width: 75vw;
+    display: flex;
+    flex-direction: row;
+
+    .career-container {
+        border: 1px solid blue;
+        height: 100vh;
+        width: 20vw;
+        display: flex;
+        flex-direction: column;
+
+        .career-header {
+            font-size: 18px;
+            padding-bottom: 50px;
+            padding-left: 25px;
+        }
+
+        .career-item {
+            padding-bottom: 200px;
+            padding-left: 25px;
+            justify-content: space-between;
+        }
+    }
+
+    .career-information-container {
+        border: 1px solid green;
+        height: 100vh;
+        width: 55vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+}
